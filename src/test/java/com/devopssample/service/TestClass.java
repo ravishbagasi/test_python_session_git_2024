@@ -22,6 +22,7 @@ public class TestClass extends TestCase {
 	@Test
 	public void testAdd() {
 		int total = 100;
+		int total_3 = 50;
 		int sum = add(4, 4);
 		assertEquals(sum, total);
 	}
